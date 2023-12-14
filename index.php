@@ -1,3 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+</head>    
+
+<style>
+  
+.mailformulier {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+.mailformulier {
+  max-width: 100%;
+  text-align: center;
+}
+}
+
+.mailformregel {
+  width: 50%;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+.mailformregel {
+  width: 70%;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+}
+
+.mailformvak {
+  width: 80%;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.mailformbutton {
+  font-size: 20px;
+  padding: 7px 30px 7px 30px;
+  color: white;
+  background-color: #3e4148;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mailformbutton:hover {
+  background-color: #4d5056;
+  color: white;
+}
+
+.mailformerror {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+</style>
+
+  <body>
 
 <?php
 
@@ -138,3 +222,6 @@ echo "<font color=\"#33cc00\"><b><i class=\"fa-solid fa-check\"></i> Je bericht 
 
   </form>
 </div>
+
+  </body>
+</html>
